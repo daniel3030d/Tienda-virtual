@@ -1,0 +1,47 @@
+.set {
+  padding-top: 4rem;
+}
+.set__title {
+  margin-top: 5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font: var(--headline3);
+
+}
+.set__content {
+  position: relative;
+  overflow: auto;
+  white-space: nowrap;
+  text-align: center;
+
+  display: flex;
+  gap: 2rem;
+  justify-content: start;
+ 
+}
+
+
+.set__item {
+  flex-shrink: 0;
+  display: inline-block;
+  text-align: center;
+}
+
+.set__item__image {
+  height: auto;
+  display: block;
+  max-width: 100%;
+}
+.set__item__title {
+  font: var(--headline6);
+}
+.set__item__price {
+  font: var(--headline6);
+}
+
+@media screen and (min-width: 1366px) {
+  .set__content {
+    justify-content: center;
+  }
+}
+

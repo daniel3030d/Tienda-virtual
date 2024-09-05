@@ -1,0 +1,48 @@
+.btn-icon {
+  border: none;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 1rem;
+}
+.btn-icon:active {
+  transform: scale(0.95);
+}
+
+.btn-icon.user {
+  background: url("../images/icon-user.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.btn-icon.car {
+  background: url("../images/icon-car.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.btn-shop {
+  display: block;
+  padding: 1rem 0.625rem;
+  font: var(--button);
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  color: var(--white);
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn-shop:active {
+  transform: scale(0.98);
+}
+
+.btn-shop.btn--primary {
+  background: var(--primary);
+}
+
+.btn-shop.btn--secondary {
+  background: var(--secondary);
+}
